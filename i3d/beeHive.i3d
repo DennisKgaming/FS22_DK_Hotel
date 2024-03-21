@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="beeHive.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="../textures/hotel02Alpha_diffuse.png"/>
+    <File fileId="1" filename="../textures/hotel02_diffuse.png"/>
+    <File fileId="2" filename="../textures/hotel02_normal.png"/>
+    <File fileId="3" filename="../textures/hotel02_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="hotel02_mat" materialId="6">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="hotel02Alpha_mat" materialId="5" specularColor="0.14902 1 0.14902">
+      <Texture fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="beeHive.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="beeHive" clipDistance="300" nodeId="10">
+        <TransformGroup name="hotel02" clipDistance="300" nodeId="11" lodDistance="0 120">
+          <Shape shapeId="1" name="hotel02_vis" static="true" clipDistance="300" nodeId="12" materialIds="6,5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="hotel02_lod" clipDistance="300" nodeId="13" materialIds="6,5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="areas" nodeId="14">
+          <TransformGroup name="start" translation="-18.8482 0 11.8886" nodeId="15">
+            <TransformGroup name="width" translation="38.3509 0 -0.819825" nodeId="16"/>
+            <TransformGroup name="height" translation="0 0 8" nodeId="17"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>
