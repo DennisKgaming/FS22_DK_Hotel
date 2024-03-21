@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>Hotel DK</name>
+        <functions>
+            <function>$l10n_function_productionPoint</function>
+        </functions>
+        <image>icons/store_hotel.png</image>
+        <price>1</price>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>sellingPoints</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>sellingPoints</tab>
+        </brush>
+        <vertexBufferMemoryUsage>604444</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>71982</indexBufferMemoryUsage>
+        <textureMemoryUsage>64</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>i3d/hotel.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+        <boughtWithFarmland>true</boughtWithFarmland>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testAreaStart" endNode="testAreaEnd" />
+        </testAreas>
+
+        <sounds>
+            <place template="medImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+		<clearArea startNode="clearAreaStart" widthNode="clearAreaWidth" heightNode="clearAreaHeight"/>
+	</clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="levelAreaStart" widthNode="levelAreaWidth" heightNode="levelAreaHeight"/>
+        </levelAreas>
+		
+		<!-- <paintAreas> -->
+			<!-- <paintArea startNode="paintArea1start" widthNode="paintArea1width" heightNode="paintArea1heigth" groundType="asphalt" /> -->
+			<!-- <paintArea startNode="paintArea2start" widthNode="paintArea2width" heightNode="paintArea2heigth" groundType="asphalt" /> -->
+			<!-- <paintArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" groundType="grass" /> -->
+			<!-- <paintArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" groundType="grass" /> -->
+		<!-- </paintAreas> -->
+    </leveling>
+	
+	<!-- <foliageAreas> -->
+			<!-- mowable -->
+		<!-- <foliageArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" fruitType="grass" />  -->
+			<!-- mowable -->
+        <!-- <foliageArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" fruitType="grass" /> -->
+       
+    <!-- </foliageAreas> -->
+
+    <!-- <indoorAreas> -->
+        <!-- <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/> -->
+        <!-- <indoorArea startNode="indoorArea2Start" widthNode="indoorArea3Width" heightNode="indoorArea3Height"/> -->
+        <!-- <indoorArea startNode="indoorArea3Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/> -->
+        <!-- <indoorArea startNode="indoorArea4Start" widthNode="indoorArea4Width" heightNode="indoorArea4Height"/> -->
+    <!-- </indoorAreas> -->
+
+    <ai>
+        <updateAreas />
+    </ai>
+
+    <triggerMarkers>
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
+    </triggerMarkers>
+
+    <hotspots>
+        <hotspot type="UNLOADING" linkNode="unloadTriggerMarker" /> <!-- teleportNode="teleportNode"-->
+    </hotspots>
+
+    <!-- <sellingStation supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48"> -->
+        <!-- <unloadTrigger exactFillRootNode="unloadTrigger" fillTypes="FLOUR BREAD CAKE BUTTER CHEESE FABRIC SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL GRAPE OLIVE RAISINS GRAPEJUICE CHOCOLATE FURNITURE STRAWBERRY LETTUCE TOMATO" /> -->
+        <!-- <fillType name="FLOUR"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="BREAD"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CAKE"             priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="BUTTER"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CHEESE"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="FABRIC"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="SUGAR"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CLOTHES"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CEREAL"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="SUNFLOWER_OIL"    priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CANOLA_OIL"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="OLIVE_OIL"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="GRAPE"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="OLIVE"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="RAISINS"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="GRAPEJUICE"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="CHOCOLATE"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="FURNITURE"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="STRAWBERRY"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="LETTUCE"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+        <!-- <fillType name="TOMATO"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
+    <!-- </sellingStation> -->
+
+    <i3dMappings>
+        <i3dMapping id="unloadTriggerMarker"	node="0>1|0" />
+		
+        <i3dMapping id="testAreaStart" 			node="0>0|1|0" />
+        <i3dMapping id="testAreaEnd" 			node="0>0|1|0|0" />
+		
+        <i3dMapping id="clearAreaStart" 		node="0>0|2|0" />
+        <i3dMapping id="clearAreaWidth" 		node="0>0|2|0|0" />
+        <i3dMapping id="clearAreaHeight" 		node="0>0|2|0|1" />
+		
+        <i3dMapping id="levelAreaStart" 		node="0>0|3|0" />
+        <i3dMapping id="levelAreaWidth" 		node="0>0|3|0|0" />
+        <i3dMapping id="levelAreaHeight" 		node="0>0|3|0|1" />
+		
+        <!-- <i3dMapping id="unloadingStation" 		node="0>" /> -->
+        <!-- <i3dMapping id="unloadTrigger" 			node="0>0" /> -->
+        <!-- <i3dMapping id="teleportNode" 			node="0>1" /> -->
+    </i3dMappings>
+</placeable>

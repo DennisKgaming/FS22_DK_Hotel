@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="77">
+   <author>DennisK</author>
+   <version>0.0.0.1</version>
+	<title>
+        <en>Hotel DK</en>
+		<de>Hotel DK</de>
+    </title>
+    <description>
+       <en><![CDATA[No description availlable yet]]></en>
+
+<de><![CDATA[No description availlable yet]]></de>
+    </description>
+	
+	<multiplayer supported="true" />
+	
+    <iconFilename>icons/icon_Hotel.png</iconFilename>
+
+	<!-- <fillTypes filename="xml/filltypes.xml" /> -->
+
+    <storeItems>
+        <storeItem xmlFilename="xml/Hotel.xml"/>
+		
+    </storeItems>
+	
+	<!-- <extraSourceFiles>		 -->
+		<!-- <sourceFile filename="scripts/AnimatedObjectExtend.lua" /> -->
+		<!-- <sourceFile filename="scripts/AnimatedObjectExtendEvent.lua" /> -->
+    <!-- </extraSourceFiles> -->
+	
+</modDesc>
