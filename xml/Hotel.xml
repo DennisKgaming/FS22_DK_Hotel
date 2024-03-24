@@ -49,28 +49,91 @@
             <levelArea startNode="levelAreaStart" widthNode="levelAreaWidth" heightNode="levelAreaHeight"/>
         </levelAreas>
 		
-		<!-- <paintAreas> -->
-			<!-- <paintArea startNode="paintArea1start" widthNode="paintArea1width" heightNode="paintArea1heigth" groundType="asphalt" /> -->
-			<!-- <paintArea startNode="paintArea2start" widthNode="paintArea2width" heightNode="paintArea2heigth" groundType="asphalt" /> -->
-			<!-- <paintArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" groundType="grass" /> -->
-			<!-- <paintArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" groundType="grass" /> -->
-		<!-- </paintAreas> -->
+		<!-- grass -->
+		
+		<paintAreas>
+			<paintArea startNode="paintArea1Start" 	widthNode="paintArea1Width" 	heightNode="paintArea1Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea2Start" 	widthNode="paintArea2Width" 	heightNode="paintArea2Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea3Start" 	widthNode="paintArea3Width" 	heightNode="paintArea3Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea4Start" 	widthNode="paintArea4Width" 	heightNode="paintArea4Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea5Start" 	widthNode="paintArea5Width" 	heightNode="paintArea5Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea6Start" 	widthNode="paintArea6Width" 	heightNode="paintArea6Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea7Start" 	widthNode="paintArea7Width" 	heightNode="paintArea7Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea8Start" 	widthNode="paintArea8Width" 	heightNode="paintArea8Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea9Start" 	widthNode="paintArea9Width" 	heightNode="paintArea9Heigth" 	groundType="asphalt" />
+			<paintArea startNode="paintArea10Start" widthNode="paintArea10Width" 	heightNode="paintArea10Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea11Start" widthNode="paintArea11Width" 	heightNode="paintArea11Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea12Start" widthNode="paintArea12Width" 	heightNode="paintArea12Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea13Start" widthNode="paintArea13Width" 	heightNode="paintArea13Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea14Start" widthNode="paintArea14Width" 	heightNode="paintArea14Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea15Start" widthNode="paintArea15Width" 	heightNode="paintArea15Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea16Start" widthNode="paintArea16Width" 	heightNode="paintArea16Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea17Start" widthNode="paintArea17Width" 	heightNode="paintArea17Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea18Start" widthNode="paintArea18Width" 	heightNode="paintArea18Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea19Start" widthNode="paintArea19Width" 	heightNode="paintArea19Heigth"	groundType="asphalt" />
+			<paintArea startNode="paintArea20Start" widthNode="paintArea20Width" 	heightNode="paintArea20Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea21Start" widthNode="paintArea21Width" 	heightNode="paintArea21Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea22Start" widthNode="paintArea22Width" 	heightNode="paintArea22Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea23Start" widthNode="paintArea23Width" 	heightNode="paintArea23Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea24Start" widthNode="paintArea24Width" 	heightNode="paintArea24Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea25Start" widthNode="paintArea25Width" 	heightNode="paintArea25Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea26Start" widthNode="paintArea26Width" 	heightNode="paintArea26Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea27Start" widthNode="paintArea27Width" 	heightNode="paintArea27Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea28Start" widthNode="paintArea28Width" 	heightNode="paintArea28Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea29Start" widthNode="paintArea29Width" 	heightNode="paintArea29Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea30Start" widthNode="paintArea30Width" 	heightNode="paintArea30Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea31Start" widthNode="paintArea31Width" 	heightNode="paintArea31Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea32Start" widthNode="paintArea32Width" 	heightNode="paintArea32Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea33Start" widthNode="paintArea33Width" 	heightNode="paintArea33Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea34Start" widthNode="paintArea34Width" 	heightNode="paintArea34Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea35Start" widthNode="paintArea35Width" 	heightNode="paintArea35Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea36Start" widthNode="paintArea36Width" 	heightNode="paintArea36Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea37Start" widthNode="paintArea37Width" 	heightNode="paintArea37Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea38Start" widthNode="paintArea38Width" 	heightNode="paintArea38Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea39Start" widthNode="paintArea39Width" 	heightNode="paintArea39Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea40Start" widthNode="paintArea40Width" 	heightNode="paintArea40Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea41Start" widthNode="paintArea41Width" 	heightNode="paintArea41Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea42Start" widthNode="paintArea42Width" 	heightNode="paintArea42Heigth"	groundType="grass" />
+			<paintArea startNode="paintArea43Start" widthNode="paintArea43Width" 	heightNode="paintArea43Heigth"	groundType="grass" />
+		
+		</paintAreas>
     </leveling>
 	
-	<!-- <foliageAreas> -->
-			<!-- mowable -->
-		<!-- <foliageArea startNode="paintArea3start" widthNode="paintArea3width" heightNode="paintArea3heigth" fruitType="grass" />  -->
-			<!-- mowable -->
-        <!-- <foliageArea startNode="paintArea4start" widthNode="paintArea4width" heightNode="paintArea4heigth" fruitType="grass" /> -->
+	<foliageAreas>
+	
+		<foliageArea startNode="foliageArea1Start" 	widthNode="foliageArea1Width" 	heightNode="foliageArea1Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea2Start" 	widthNode="foliageArea2Width" 	heightNode="foliageArea2Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea3Start" 	widthNode="foliageArea3Width" 	heightNode="foliageArea3Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea4Start" 	widthNode="foliageArea4Width" 	heightNode="foliageArea4Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea5Start" 	widthNode="foliageArea5Width" 	heightNode="foliageArea5Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea6Start" 	widthNode="foliageArea6Width" 	heightNode="foliageArea6Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea7Start" 	widthNode="foliageArea7Width" 	heightNode="foliageArea7Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea8Start" 	widthNode="foliageArea8Width" 	heightNode="foliageArea8Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea9Start" 	widthNode="foliageArea9Width" 	heightNode="foliageArea9Heigth"		fruitType="grass" />
+		<foliageArea startNode="foliageArea10Start"	widthNode="foliageArea10Width" 	heightNode="foliageArea10Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea11Start"	widthNode="foliageArea11Width" 	heightNode="foliageArea11Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea12Start"	widthNode="foliageArea12Width" 	heightNode="foliageArea12Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea13Start"	widthNode="foliageArea13Width" 	heightNode="foliageArea13Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea14Start"	widthNode="foliageArea14Width" 	heightNode="foliageArea14Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea15Start"	widthNode="foliageArea15Width" 	heightNode="foliageArea15Heigth"	fruitType="grass" />
+		<!-- <foliageArea startNode="foliageArea16Start"	widthNode="foliageArea16Width" 	heightNode="foliageArea16Heigth"	fruitType="grass" /> -->
+		<foliageArea startNode="foliageArea17Start"	widthNode="foliageArea17Width" 	heightNode="foliageArea17Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea18Start"	widthNode="foliageArea18Width" 	heightNode="foliageArea18Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea19Start"	widthNode="foliageArea19Width" 	heightNode="foliageArea19Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea20Start"	widthNode="foliageArea20Width" 	heightNode="foliageArea20Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea21Start"	widthNode="foliageArea21Width" 	heightNode="foliageArea21Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea22Start"	widthNode="foliageArea22Width" 	heightNode="foliageArea22Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea23Start"	widthNode="foliageArea23Width" 	heightNode="foliageArea23Heigth"	fruitType="grass" />
+		<foliageArea startNode="foliageArea24Start"	widthNode="foliageArea24Width" 	heightNode="foliageArea24Heigth"	fruitType="grass" />
+		
        
-    <!-- </foliageAreas> -->
+    </foliageAreas>
 
-    <!-- <indoorAreas> -->
-        <!-- <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/> -->
-        <!-- <indoorArea startNode="indoorArea2Start" widthNode="indoorArea3Width" heightNode="indoorArea3Height"/> -->
-        <!-- <indoorArea startNode="indoorArea3Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/> -->
-        <!-- <indoorArea startNode="indoorArea4Start" widthNode="indoorArea4Width" heightNode="indoorArea4Height"/> -->
-    <!-- </indoorAreas> -->
+    <indoorAreas>
+        <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/>
+        <indoorArea startNode="indoorArea2Start" widthNode="indoorArea3Width" heightNode="indoorArea3Height"/>
+        <indoorArea startNode="indoorArea3Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height"/>
+    </indoorAreas>
 
     <ai>
         <updateAreas />
@@ -79,38 +142,84 @@
     <triggerMarkers>
         <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
     </triggerMarkers>
-
+	
     <hotspots>
-        <hotspot type="UNLOADING" linkNode="unloadTriggerMarker" /> <!-- teleportNode="teleportNode"-->
+        <hotspot type="UNLOADING" linkNode="unloadTriggerMarker" teleportNode="teleportNode" />
     </hotspots>
 
-    <!-- <sellingStation supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48"> -->
-        <!-- <unloadTrigger exactFillRootNode="unloadTrigger" fillTypes="FLOUR BREAD CAKE BUTTER CHEESE FABRIC SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL GRAPE OLIVE RAISINS GRAPEJUICE CHOCOLATE FURNITURE STRAWBERRY LETTUCE TOMATO" /> -->
-        <!-- <fillType name="FLOUR"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="BREAD"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CAKE"             priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="BUTTER"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CHEESE"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="FABRIC"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="SUGAR"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CLOTHES"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CEREAL"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="SUNFLOWER_OIL"    priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CANOLA_OIL"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="OLIVE_OIL"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="GRAPE"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="OLIVE"            priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="RAISINS"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="GRAPEJUICE"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="CHOCOLATE"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="FURNITURE"        priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="STRAWBERRY"       priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="LETTUCE"          priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-        <!-- <fillType name="TOMATO"           priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" /> -->
-    <!-- </sellingStation> -->
+    <sellingStation supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48">
+        <unloadTrigger exactFillRootNode="unloadTriggerBunker" fillTypes="CRACKEDCORN CORNMEAL CRISPS KETCHUP SALAD SYRUP PELLETS SOYMILK FOOD FRENCHFRIES SORTEDPOTATOES NOODLES TOMATOSAUCE MIXSALAD OATDRINK OATMEAL POPCORN SOYDRINK STRAWBERRYICECREAM DONUT_GLAZED DONUT_STRAWBERRY DONUT_CHOCOLATE DONUTS MAPLESYRUP POTATO PREMIUMPOTATO PREMIUMBAGGED OATMILK SOYACUISINE SKYR TOFU TOFUROSSO SMOKEDTOFU BREAD CAKE BUTTER CHEESE GRAPEJUICE STRAWBERRY LETTUCE TOMATO EGG HONEY OLIVE CRISPS ROADSALT FLOUR SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS CHOCOLATE GRAPE COFFEE ROASTED_COFFEE REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER MILKTART" />
+		<unloadTrigger fillTypes="CRACKEDCORN CORNMEAL CRISPS KETCHUP SALAD SYRUP PELLETS SOYMILK FOOD FRENCHFRIES SORTEDPOTATOES NOODLES TOMATOSAUCE MIXSALAD OATDRINK OATMEAL POPCORN SOYDRINK STRAWBERRYICECREAM DONUT_GLAZED DONUT_STRAWBERRY DONUT_CHOCOLATE DONUTS MAPLESYRUP POTATO PREMIUMPOTATO PREMIUMBAGGED OATMILK SOYACUISINE SKYR TOFU TOFUROSSO SMOKEDTOFU BREAD CAKE BUTTER CHEESE GRAPEJUICE STRAWBERRY LETTUCE TOMATO EGG HONEY OLIVE CRISPS ROADSALT FLOUR SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS CHOCOLATE GRAPE COFFEE ROASTED_COFFEE REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER MILKTART">
+			<baleTrigger triggerNode="baleTriggerBunker" />
+		</unloadTrigger>
+		
+		<fillType name="FLOUR"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="BREAD"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CAKE"             		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="BUTTER"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CHEESE"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="SUGAR"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CLOTHES"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CEREAL"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="SUNFLOWER_OIL"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CANOLA_OIL"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="OLIVE_OIL"        		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="GRAPE"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="OLIVE"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="RAISINS"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="GRAPEJUICE"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CHOCOLATE"        		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="STRAWBERRY"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="LETTUCE"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="TOMATO"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="REGULAR_BEER"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="WHEAT_BEER"         	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="STOUT_ALE"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="FRUIT_BEER"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="MILKTART"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRACKEDCORN"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CORNMEAL"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRISPS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="KETCHUP"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SALAD"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SYRUP"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYMILK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="FOOD"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="FRENCHFRIES"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SORTEDPOTATOES"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="NOODLES"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOMATOSAUCE"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="MIXSALAD"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATDRINK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATMEAL"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="POPCORN"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYDRINK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="STRAWBERRYICECREAM"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_GLAZED"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_STRAWBERRY"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_CHOCOLATE"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUTS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="MAPLESYRUP"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="POTATO"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="PREMIUMPOTATO"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="PREMIUMBAGGED"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATMILK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYACUISINE"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SKYR"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOFU"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOFUROSSO"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SMOKEDTOFU"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOMATO"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="EGG"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="HONEY"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRISPS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="ROADSALT"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="COFFEE"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="ROASTED_COFFEE"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		
+    </sellingStation>
 
     <i3dMappings>
-        <i3dMapping id="unloadTriggerMarker"	node="0>1|0" />
 		
         <i3dMapping id="testAreaStart" 			node="0>0|1|0" />
         <i3dMapping id="testAreaEnd" 			node="0>0|1|0|0" />
@@ -123,8 +232,228 @@
         <i3dMapping id="levelAreaWidth" 		node="0>0|3|0|0" />
         <i3dMapping id="levelAreaHeight" 		node="0>0|3|0|1" />
 		
-        <!-- <i3dMapping id="unloadingStation" 		node="0>" /> -->
-        <!-- <i3dMapping id="unloadTrigger" 			node="0>0" /> -->
-        <!-- <i3dMapping id="teleportNode" 			node="0>1" /> -->
+        <i3dMapping id="paintArea1Start" 		node="0>0|4|0" />
+        <i3dMapping id="paintArea1Width" 		node="0>0|4|0|0" />
+        <i3dMapping id="paintArea1Heigth" 		node="0>0|4|0|1" />
+        <i3dMapping id="paintArea2Start" 		node="0>0|4|1" />
+        <i3dMapping id="paintArea2Width" 		node="0>0|4|1|0" />
+        <i3dMapping id="paintArea2Heigth" 		node="0>0|4|1|1" />
+        <i3dMapping id="paintArea3Start" 		node="0>0|4|2" />
+        <i3dMapping id="paintArea3Width" 		node="0>0|4|2|0" />
+        <i3dMapping id="paintArea3Heigth" 		node="0>0|4|2|1" />
+        <i3dMapping id="paintArea4Start" 		node="0>0|4|3" />
+        <i3dMapping id="paintArea4Width" 		node="0>0|4|3|0" />
+        <i3dMapping id="paintArea4Heigth" 		node="0>0|4|3|1" />
+        <i3dMapping id="paintArea5Start" 		node="0>0|4|4" />
+        <i3dMapping id="paintArea5Width" 		node="0>0|4|4|0" />
+        <i3dMapping id="paintArea5Heigth" 		node="0>0|4|4|1" />
+        <i3dMapping id="paintArea6Start" 		node="0>0|4|5" />
+        <i3dMapping id="paintArea6Width" 		node="0>0|4|5|0" />
+        <i3dMapping id="paintArea6Heigth" 		node="0>0|4|5|1" />
+        <i3dMapping id="paintArea7Start" 		node="0>0|4|6" />
+        <i3dMapping id="paintArea7Width" 		node="0>0|4|6|0" />
+        <i3dMapping id="paintArea7Heigth" 		node="0>0|4|6|1" />
+        <i3dMapping id="paintArea8Start" 		node="0>0|4|7" />
+        <i3dMapping id="paintArea8Width" 		node="0>0|4|7|0" />
+        <i3dMapping id="paintArea8Heigth" 		node="0>0|4|7|1" />
+        <i3dMapping id="paintArea9Start" 		node="0>0|4|8" />
+        <i3dMapping id="paintArea9Width" 		node="0>0|4|8|0" />
+        <i3dMapping id="paintArea9Heigth" 		node="0>0|4|8|1" />
+        <i3dMapping id="paintArea10Start" 		node="0>0|4|9" />
+        <i3dMapping id="paintArea10Width" 		node="0>0|4|9|0" />
+        <i3dMapping id="paintArea10Heigth" 		node="0>0|4|9|1" />
+        <i3dMapping id="paintArea11Start" 		node="0>0|4|10" />
+        <i3dMapping id="paintArea11Width" 		node="0>0|4|10|0" />
+        <i3dMapping id="paintArea11Heigth" 		node="0>0|4|10|1" />
+        <i3dMapping id="paintArea12Start" 		node="0>0|4|11" />
+        <i3dMapping id="paintArea12Width" 		node="0>0|4|11|0" />
+        <i3dMapping id="paintArea12Heigth" 		node="0>0|4|11|1" />
+        <i3dMapping id="paintArea13Start" 		node="0>0|4|12" />
+        <i3dMapping id="paintArea13Width" 		node="0>0|4|12|0" />
+        <i3dMapping id="paintArea13Heigth" 		node="0>0|4|12|1" />
+        <i3dMapping id="paintArea14Start" 		node="0>0|4|13" />
+        <i3dMapping id="paintArea14Width" 		node="0>0|4|13|0" />
+        <i3dMapping id="paintArea14Heigth" 		node="0>0|4|13|1" />
+        <i3dMapping id="paintArea15Start" 		node="0>0|4|14" />
+        <i3dMapping id="paintArea15Width" 		node="0>0|4|14|0" />
+        <i3dMapping id="paintArea15Heigth" 		node="0>0|4|14|1" />
+        <i3dMapping id="paintArea16Start" 		node="0>0|4|15" />
+        <i3dMapping id="paintArea16Width" 		node="0>0|4|15|0" />
+        <i3dMapping id="paintArea16Heigth" 		node="0>0|4|15|1" />
+        <i3dMapping id="paintArea17Start" 		node="0>0|4|16" />
+        <i3dMapping id="paintArea17Width" 		node="0>0|4|16|0" />
+        <i3dMapping id="paintArea17Heigth" 		node="0>0|4|16|1" />
+        <i3dMapping id="paintArea18Start" 		node="0>0|4|17" />
+        <i3dMapping id="paintArea18Width" 		node="0>0|4|17|0" />
+        <i3dMapping id="paintArea18Heigth" 		node="0>0|4|17|1" />
+        <i3dMapping id="paintArea19Start" 		node="0>0|4|18" />
+        <i3dMapping id="paintArea19Width" 		node="0>0|4|18|0" />
+        <i3dMapping id="paintArea19Heigth" 		node="0>0|4|18|1" />
+        <i3dMapping id="paintArea20Start" 		node="0>0|4|19" />
+        <i3dMapping id="paintArea20Width" 		node="0>0|4|19|0" />
+        <i3dMapping id="paintArea20Heigth" 		node="0>0|4|19|1" />
+        <i3dMapping id="paintArea21Start" 		node="0>0|4|20" />
+        <i3dMapping id="paintArea21Width" 		node="0>0|4|20|0" />
+        <i3dMapping id="paintArea21Heigth" 		node="0>0|4|20|1" />
+        <i3dMapping id="paintArea22Start" 		node="0>0|4|21" />
+        <i3dMapping id="paintArea22Width" 		node="0>0|4|21|0" />
+        <i3dMapping id="paintArea22Heigth" 		node="0>0|4|21|1" />
+        <i3dMapping id="paintArea23Start" 		node="0>0|4|22" />
+        <i3dMapping id="paintArea23Width" 		node="0>0|4|22|0" />
+        <i3dMapping id="paintArea23Heigth" 		node="0>0|4|22|1" />
+        <i3dMapping id="paintArea24Start" 		node="0>0|4|23" />
+        <i3dMapping id="paintArea24Width" 		node="0>0|4|23|0" />
+        <i3dMapping id="paintArea24Heigth" 		node="0>0|4|23|1" />
+        <i3dMapping id="paintArea25Start" 		node="0>0|4|24" />
+        <i3dMapping id="paintArea25Width" 		node="0>0|4|24|0" />
+        <i3dMapping id="paintArea25Heigth" 		node="0>0|4|24|1" />
+        <i3dMapping id="paintArea26Start" 		node="0>0|4|25" />
+        <i3dMapping id="paintArea26Width" 		node="0>0|4|25|0" />
+        <i3dMapping id="paintArea26Heigth" 		node="0>0|4|25|1" />
+        <i3dMapping id="paintArea27Start" 		node="0>0|4|26" />
+        <i3dMapping id="paintArea27Width" 		node="0>0|4|26|0" />
+        <i3dMapping id="paintArea27Heigth" 		node="0>0|4|26|1" />
+        <i3dMapping id="paintArea28Start" 		node="0>0|4|27" />
+        <i3dMapping id="paintArea28Width" 		node="0>0|4|27|0" />
+        <i3dMapping id="paintArea28Heigth" 		node="0>0|4|27|1" />
+        <i3dMapping id="paintArea29Start" 		node="0>0|4|28" />
+        <i3dMapping id="paintArea29Width" 		node="0>0|4|28|0" />
+        <i3dMapping id="paintArea29Heigth" 		node="0>0|4|28|1" />
+        <i3dMapping id="paintArea30Start" 		node="0>0|4|29" />
+        <i3dMapping id="paintArea30Width" 		node="0>0|4|29|0" />
+        <i3dMapping id="paintArea30Heigth" 		node="0>0|4|29|1" />
+        <i3dMapping id="paintArea31Start" 		node="0>0|4|30" />
+        <i3dMapping id="paintArea31Width" 		node="0>0|4|30|0" />
+        <i3dMapping id="paintArea31Heigth" 		node="0>0|4|30|1" />
+        <i3dMapping id="paintArea32Start" 		node="0>0|4|31" />
+        <i3dMapping id="paintArea32Width" 		node="0>0|4|31|0" />
+        <i3dMapping id="paintArea32Heigth" 		node="0>0|4|31|1" />
+        <i3dMapping id="paintArea33Start" 		node="0>0|4|32" />
+        <i3dMapping id="paintArea33Width" 		node="0>0|4|32|0" />
+        <i3dMapping id="paintArea33Heigth" 		node="0>0|4|32|1" />
+        <i3dMapping id="paintArea34Start" 		node="0>0|4|33" />
+        <i3dMapping id="paintArea34Width" 		node="0>0|4|33|0" />
+        <i3dMapping id="paintArea34Heigth" 		node="0>0|4|33|1" />
+        <i3dMapping id="paintArea35Start" 		node="0>0|4|34" />
+        <i3dMapping id="paintArea35Width" 		node="0>0|4|34|0" />
+        <i3dMapping id="paintArea35Heigth" 		node="0>0|4|34|1" />
+        <i3dMapping id="paintArea36Start" 		node="0>0|4|35" />
+        <i3dMapping id="paintArea36Width" 		node="0>0|4|35|0" />
+        <i3dMapping id="paintArea36Heigth" 		node="0>0|4|35|1" />
+        <i3dMapping id="paintArea37Start" 		node="0>0|4|36" />
+        <i3dMapping id="paintArea37Width" 		node="0>0|4|36|0" />
+        <i3dMapping id="paintArea37Heigth" 		node="0>0|4|36|1" />
+        <i3dMapping id="paintArea38Start" 		node="0>0|4|37" />
+        <i3dMapping id="paintArea38Width" 		node="0>0|4|37|0" />
+        <i3dMapping id="paintArea38Heigth" 		node="0>0|4|37|1" />
+        <i3dMapping id="paintArea39Start" 		node="0>0|4|38" />
+        <i3dMapping id="paintArea39Width" 		node="0>0|4|38|0" />
+        <i3dMapping id="paintArea39Heigth" 		node="0>0|4|38|1" />
+        <i3dMapping id="paintArea40Start" 		node="0>0|4|39" />
+        <i3dMapping id="paintArea40Width" 		node="0>0|4|39|0" />
+        <i3dMapping id="paintArea40Heigth" 		node="0>0|4|39|1" />
+        <i3dMapping id="paintArea41Start" 		node="0>0|4|40" />
+        <i3dMapping id="paintArea41Width" 		node="0>0|4|40|0" />
+        <i3dMapping id="paintArea41Heigth" 		node="0>0|4|40|1" />
+        <i3dMapping id="paintArea42Start" 		node="0>0|4|41" />
+        <i3dMapping id="paintArea42Width" 		node="0>0|4|41|0" />
+        <i3dMapping id="paintArea42Heigth" 		node="0>0|4|41|1" />
+        <i3dMapping id="paintArea43Start" 		node="0>0|4|42" />
+        <i3dMapping id="paintArea43Width" 		node="0>0|4|42|0" />
+        <i3dMapping id="paintArea43Heigth" 		node="0>0|4|42|1" />
+		
+		
+        <i3dMapping id="foliageArea1Start" 		node="0>0|5|0" />
+        <i3dMapping id="foliageArea1Width" 		node="0>0|5|0|0" />
+        <i3dMapping id="foliageArea1Heigth" 	node="0>0|5|0|1" />
+        <i3dMapping id="foliageArea2Start" 		node="0>0|5|1" />
+        <i3dMapping id="foliageArea2Width" 		node="0>0|5|1|0" />
+        <i3dMapping id="foliageArea2Heigth" 	node="0>0|5|1|1" />		
+        <i3dMapping id="foliageArea3Start" 		node="0>0|5|2" />
+        <i3dMapping id="foliageArea3Width" 		node="0>0|5|2|0" />
+        <i3dMapping id="foliageArea3Heigth" 	node="0>0|5|2|1" />		
+        <i3dMapping id="foliageArea4Start" 		node="0>0|5|3" />
+        <i3dMapping id="foliageArea4Width" 		node="0>0|5|3|0" />
+        <i3dMapping id="foliageArea4Heigth" 	node="0>0|5|3|1" />		
+        <i3dMapping id="foliageArea5Start" 		node="0>0|5|4" />
+        <i3dMapping id="foliageArea5Width" 		node="0>0|5|4|0" />
+        <i3dMapping id="foliageArea5Heigth" 	node="0>0|5|4|1" />		
+        <i3dMapping id="foliageArea6Start" 		node="0>0|5|5" />
+        <i3dMapping id="foliageArea6Width" 		node="0>0|5|5|0" />
+        <i3dMapping id="foliageArea6Heigth" 	node="0>0|5|5|1" />		
+        <i3dMapping id="foliageArea7Start" 		node="0>0|5|6" />
+        <i3dMapping id="foliageArea7Width" 		node="0>0|5|6|0" />
+        <i3dMapping id="foliageArea7Heigth" 	node="0>0|5|6|1" />		
+        <i3dMapping id="foliageArea8Start" 		node="0>0|5|7" />
+        <i3dMapping id="foliageArea8Width" 		node="0>0|5|7|0" />
+        <i3dMapping id="foliageArea8Heigth" 	node="0>0|5|7|1" />		
+        <i3dMapping id="foliageArea9Start" 		node="0>0|5|8" />
+        <i3dMapping id="foliageArea9Width" 		node="0>0|5|8|0" />
+        <i3dMapping id="foliageArea9Heigth" 	node="0>0|5|8|1" />		
+        <i3dMapping id="foliageArea10Start" 	node="0>0|5|9" />
+        <i3dMapping id="foliageArea10Width" 	node="0>0|5|9|0" />
+        <i3dMapping id="foliageArea10Heigth" 	node="0>0|5|9|1" />		
+        <i3dMapping id="foliageArea11Start" 	node="0>0|5|10" />
+        <i3dMapping id="foliageArea11Width" 	node="0>0|5|10|0" />
+        <i3dMapping id="foliageArea11Heigth" 	node="0>0|5|10|1" />		
+        <i3dMapping id="foliageArea12Start" 	node="0>0|5|11" />
+        <i3dMapping id="foliageArea12Width" 	node="0>0|5|11|0" />
+        <i3dMapping id="foliageArea12Heigth" 	node="0>0|5|11|1" />		
+        <i3dMapping id="foliageArea13Start" 	node="0>0|5|12" />
+        <i3dMapping id="foliageArea13Width" 	node="0>0|5|12|0" />
+        <i3dMapping id="foliageArea13Heigth" 	node="0>0|5|12|1" />		
+        <i3dMapping id="foliageArea14Start" 	node="0>0|5|13" />
+        <i3dMapping id="foliageArea14Width" 	node="0>0|5|13|0" />
+        <i3dMapping id="foliageArea14Heigth" 	node="0>0|5|13|1" />		
+        <i3dMapping id="foliageArea15Start" 	node="0>0|5|14" />
+        <i3dMapping id="foliageArea15Width" 	node="0>0|5|14|0" />
+        <i3dMapping id="foliageArea15Heigth" 	node="0>0|5|14|1" />		
+        <i3dMapping id="foliageArea16Start" 	node="0>0|5|15" />
+        <i3dMapping id="foliageArea16Width" 	node="0>0|5|15|0" />
+        <i3dMapping id="foliageArea16Heigth" 	node="0>0|5|15|1" />		
+        <i3dMapping id="foliageArea17Start" 	node="0>0|5|16" />
+        <i3dMapping id="foliageArea17Width" 	node="0>0|5|16|0" />
+        <i3dMapping id="foliageArea17Heigth" 	node="0>0|5|16|1" />		
+        <i3dMapping id="foliageArea18Start" 	node="0>0|5|17" />
+        <i3dMapping id="foliageArea18Width" 	node="0>0|5|17|0" />
+        <i3dMapping id="foliageArea18Heigth" 	node="0>0|5|17|1" />		
+        <i3dMapping id="foliageArea19Start" 	node="0>0|5|18" />
+        <i3dMapping id="foliageArea19Width" 	node="0>0|5|18|0" />
+        <i3dMapping id="foliageArea19Heigth" 	node="0>0|5|18|1" />		
+        <i3dMapping id="foliageArea20Start" 	node="0>0|5|19" />
+        <i3dMapping id="foliageArea20Width" 	node="0>0|5|19|0" />
+        <i3dMapping id="foliageArea20Heigth" 	node="0>0|5|19|1" />		
+        <i3dMapping id="foliageArea21Start" 	node="0>0|5|20" />
+        <i3dMapping id="foliageArea21Width" 	node="0>0|5|20|0" />
+        <i3dMapping id="foliageArea21Heigth" 	node="0>0|5|20|1" />		
+        <i3dMapping id="foliageArea22Start" 	node="0>0|5|21" />
+        <i3dMapping id="foliageArea22Width" 	node="0>0|5|21|0" />
+        <i3dMapping id="foliageArea22Heigth" 	node="0>0|5|21|1" />		
+        <i3dMapping id="foliageArea23Start" 	node="0>0|5|22" />
+        <i3dMapping id="foliageArea23Width" 	node="0>0|5|22|0" />
+        <i3dMapping id="foliageArea23Heigth" 	node="0>0|5|22|1" />		
+        <i3dMapping id="foliageArea24Start" 	node="0>0|5|23" />
+        <i3dMapping id="foliageArea24Width" 	node="0>0|5|23|0" />
+        <i3dMapping id="foliageArea24Heigth" 	node="0>0|5|23|1" />
+		
+        <i3dMapping id="indoorArea1Start" 		node="0>0|6|0" />
+        <i3dMapping id="indoorArea1Width" 		node="0>0|6|0|0" />
+        <i3dMapping id="indoorArea1Height" 		node="0>0|6|0|1" />
+        <i3dMapping id="indoorArea2Start" 		node="0>0|6|1" />
+        <i3dMapping id="indoorArea2Width" 		node="0>0|6|1|0" />
+        <i3dMapping id="indoorArea2Height" 		node="0>0|6|1|1" />
+        <i3dMapping id="indoorArea3Start" 		node="0>0|6|2" />
+        <i3dMapping id="indoorArea3Width" 		node="0>0|6|2|0" />
+        <i3dMapping id="indoorArea3Height" 		node="0>0|6|2|1" />
+		
+        <i3dMapping id="unloadTriggerMarker"	node="0>1|0" />
+        <i3dMapping id="teleportNode" 			node="0>1|1" />
+		
+        <i3dMapping id="unloadingStation" 		node="0>2|0" />
+        <i3dMapping id="unloadTriggerBunker" 	node="0>2|0|0|0" />
+        <i3dMapping id="baleTriggerBunker" 		node="0>2|0|0|1" />
+		
+		
+		
     </i3dMappings>
 </placeable>

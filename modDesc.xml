@@ -16,11 +16,10 @@
 	
     <iconFilename>icons/icon_Hotel.png</iconFilename>
 
-	<!-- <fillTypes filename="xml/filltypes.xml" /> -->
+	<fillTypes filename="xml/filltypes.xml" />
 
     <storeItems>
         <storeItem xmlFilename="xml/Hotel.xml"/>
-		
     </storeItems>
 	
 	<!-- <extraSourceFiles>		 -->

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+
+    <fillTypeCategories>
+        <fillTypeCategory name="LOC_GRAINMILL">CRACKEDCORN CORNMEAL</fillTypeCategory>
+        <fillTypeCategory name="LOC_PACKING">CRISPS KETCHUP SALAD SYRUP PELLETS SOYMILK FOOD OBJECT LIQUID REP</fillTypeCategory>
+        <fillTypeCategory name="LOC_FARMPROD">FRENCHFRIES SORTEDPOTATOES NOODLES TOMATOSAUCE MIXSALAD OATDRINK OATMEAL POPCORN SOYDRINK STRAWBERRYICECREAM</fillTypeCategory>
+        <fillTypeCategory name="LOC_DONUT">DONUT_GLAZED DONUT_STRAWBERRY DONUT_CHOCOLATE DONUTS</fillTypeCategory>
+        <fillTypeCategory name="LOC_OTHERS">MAPLESYRUP MILKTART</fillTypeCategory>
+        <fillTypeCategory name="LOC_SEEDPOTATO">PREMIUMPOTATO PREMIUMBAGGED</fillTypeCategory>0
+        <fillTypeCategory name="LOC_PLANTY">OATMILK SOYACUISINE SKYR TOFU TOFUROSSO SMOKEDTOFU</fillTypeCategory>
+		<fillTypeCategory name="LOC_REFER">BREAD CAKE BUTTER CHEESE GRAPEJUICE STRAWBERRY LETTUCE TOMATO EGG HONEY OLIVE CRISPS FRENCHFRIES KETCHUP SALAD SYRUP MAPLESYRUP SOYMILK FOOD LIQUID NOODLES TOMATOSAUCE MIXSALAD SOYDRINK STRAWBERRYICECREAM DONUT_GLAZED DONUT_STRAWBERRY DONUT_CHOCOLATE DONUTS TOFU TOFUROSSO SMOKEDTOFU</fillTypeCategory>
+		<fillTypeCategory name="LOC_BIGBAGS">ROADSALT</fillTypeCategory>
+		<fillTypeCategory name="LOC_PRODUCTS">FLOUR BREAD CAKE BUTTER CHEESE FABRIC SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS GRAPEJUICE CHOCOLATE STRAWBERRY LETTUCE TOMATO EGG HONEY GRAPE OLIVE WOOL SILAGE_ADDITIVE</fillTypeCategory>
+		<fillTypeCategory name="LOC_SA">COFFEE ROASTED_COFFEE</fillTypeCategory>
+        <fillTypeCategory name="LOC_BEERS">REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER</fillTypeCategory>
+    </fillTypeCategories>
+
+</map>
+
+<!--
+
+Hotel:	CRACKEDCORN CORNMEAL CRISPS KETCHUP SALAD SYRUP PELLETS SOYMILK FOOD FRENCHFRIES SORTEDPOTATOES NOODLES TOMATOSAUCE MIXSALAD OATDRINK OATMEAL POPCORN SOYDRINK STRAWBERRYICECREAM DONUT_GLAZED DONUT_STRAWBERRY DONUT_CHOCOLATE DONUTS MAPLESYRUP PREMIUMPOTATO PREMIUMBAGGED OATMILK SOYACUISINE SKYR TOFU TOFUROSSO SMOKEDTOFU BREAD CAKE BUTTER CHEESE GRAPEJUICE STRAWBERRY LETTUCE TOMATO EGG HONEY OLIVE CRISPS ROADSALT FLOUR SUGAR CLOTHES CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS CHOCOLATE GRAPE COFFEE ROASTED_COFFEE REGULAR_BEER WHEAT_BEER STOUT_ALE FRUIT_BEER
+
+List of Filltypes for Hotel:
+
+		<fillType name="FLOUR"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="BREAD"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CAKE"             		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="BUTTER"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CHEESE"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="SUGAR"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CLOTHES"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CEREAL"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="SUNFLOWER_OIL"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CANOLA_OIL"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="OLIVE_OIL"        		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="GRAPE"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="OLIVE"            		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="RAISINS"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="GRAPEJUICE"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="CHOCOLATE"        		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="STRAWBERRY"       		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="LETTUCE"          		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="TOMATO"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="REGULAR_BEER"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="WHEAT_BEER"         	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="STOUT_ALE"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="FRUIT_BEER"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="MILKTART"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRACKEDCORN"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CORNMEAL"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRISPS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="KETCHUP"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SALAD"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SYRUP"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYMILK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="FOOD"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="FRENCHFRIES"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SORTEDPOTATOES"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="NOODLES"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOMATOSAUCE"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="MIXSALAD"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATDRINK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATMEAL"           		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="POPCORN"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYDRINK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="STRAWBERRYICECREAM"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_GLAZED"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_STRAWBERRY"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUT_CHOCOLATE"		priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="DONUTS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="MAPLESYRUP"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="POTATO"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="PREMIUMPOTATO"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="PREMIUMBAGGED"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="OATMILK"				priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SOYACUISINE"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SKYR"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOFU"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOFUROSSO"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="SMOKEDTOFU"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="TOMATO"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="EGG"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="HONEY"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="CRISPS"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="ROADSALT"           	priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="COFFEE"					priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="ROASTED_COFFEE"			priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+	
+-->
